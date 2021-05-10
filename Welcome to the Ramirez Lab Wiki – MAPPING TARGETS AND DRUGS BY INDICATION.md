@@ -1,4 +1,4 @@
-## *Welcome to the Ramirez Lab Wiki – MAPPING TARGETS AND DRUGS BY INDICATION*
+## *Welcome to the Ramirez Lab Wiki – MAPPING TARGETS AND DRUGS BY INDICATION --> Edited by DAvid Ramirez*
 
 <div align="justify">Here we used a KNIME workflow to capture relevant information about an indication of interest using different databases such as <a href="https://www.ebi.ac.uk/chembl" target="_blank"><b>CHEMBL</b></a></b>, <b><a href="http://db.idrblab.net/ttd/" target="_blank">TTD</a></b>, <b><a href="https://go.drugbank.com/" target="_blank"<b>DRUGBANK</b></a>, <b><a href="https://string-db.org/" target="_blank"<b>STRING</b></a> and <b><a href="https://www.opentargets.org/" target="_blank"<b>OPEN TARGETS</b></a>,  to obtain a complete list of targets, drugs and their phase of study, as well as the most important protein-protein interactions to characterize the modularity of the biological process associated with the disease. This workflow was standardized using Alzheimer's disease as an example.</div>
 
