@@ -14,7 +14,7 @@
 
   <a href="https://github.com/jdhurtadop2017/Mapping_Targets/raw/master/Outputs/Outputs.rar"> **Outputs**</a>
   
-  Here you can see a complete visualization of the workflow <a href="https://raw.githubusercontent.com/jdhurtadop2017/Mapping_Targets/master/media/workflow.svg" target="_blank">**Workflow view**</a>
+  Here you can see a complete visualization of the workflow <a href="https://workflowigm.netlify.app/" target="_blank">**Workflow view**</a>
   
   
   
