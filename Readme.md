@@ -18,7 +18,7 @@
   
   
   
-  ![](/media/Workflow.png)
+  ![](./media/Workflow.png)
 
 ###  1. Inputs - Acquisition of data from different databases to calculate interaction frequencies.
 
