@@ -18,7 +18,7 @@
   
   
   
-  <a href=".\media\workflow.svg"  target="_blank">![](.\media\workflow.png)</a>
+  <a href=".\media\workflow.png"  target="_blank">![](.\media\workflow.png)</a>
 
 ###  1. Inputs - Acquisition of data from different databases to calculate interaction frequencies.
 
