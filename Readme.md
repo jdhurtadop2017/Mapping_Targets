@@ -6,9 +6,9 @@
 
 * Knime version 4.3.1 or higher, a programming software through functional workflow <b><a href="https://www.knime.com/" target="_blank">Knime website</a></b>
 
-* Our internal Knime workflow to capture relevant information about an indication of interest using the different databases <a href="./End_Hunting-Targets_CP.knwf" target="_blank" dowload="End_Hunting-Targets_CP">**End_Hunting-Targets_CP**</a>.
+* Our internal Knime workflow to capture relevant information about an indication of interest using the different databases <a href="./" target="_blank" dowload="End_Hunting-Targets_CP.knwf">**End_Hunting-Targets_CP**</a>.
 
-* Download the input files to run the workflow <a href="/Inputs/Inputs.rar" target="_blank" dowload="Inputs">**Inputs**</a>
+* Download the input files to run the workflow <a href="./Inputs/" target="_blank" dowload="Inputs.rar">**Inputs**</a>
 
   <a href=".\media\workflow.svg"  target="_blank">![](.\media\workflow.svg)</a>
 
