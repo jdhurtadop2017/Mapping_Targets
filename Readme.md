@@ -6,10 +6,14 @@
 
 * Knime version 4.3.1 or higher, a programming software through functional workflow <b><a href="https://www.knime.com/" target="_blank">Knime website</a></b>
 
-* Our internal Knime workflow to capture relevant information about an indication of interest using the different databases <a href="https://github.com/jdhurtadop2017/Test/raw/master/End_Hunting-Targets_CP.knwf">**End_Hunting-Targets_CP**</a>.
+* Our internal Knime workflow to capture relevant information about an indication of interest using the different databases <a href="https://github.com/jdhurtadop2017/Mapping_Targets/raw/master/End_Hunting-Targets_CP.knwf">**End_Hunting-Targets_CP**</a>.
 
-* Download the input files to run the workflow <a href="https://github.com/jdhurtadop2017/Test/raw/master/Inputs/Inputs.rar">**Inputs**</a>
+* Download the input files to run the workflow <a href="https://github.com/jdhurtadop2017/Mapping_Targets/raw/master/Inputs/Inputs.rar">**Inputs**</a>
 
+* Output files using Alzheimer's disease as an example for the user to compare with the results obtained.
+
+  <a href="https://github.com/jdhurtadop2017/Mapping_Targets/raw/master/Outputs/Outputs.rar"> **Outputs**</a>
+  
   <a href=".\media\workflow.svg"  target="_blank">![](.\media\workflow.svg)</a>
 
 ###  1. Inputs - Acquisition of data from different databases to calculate interaction frequencies.
