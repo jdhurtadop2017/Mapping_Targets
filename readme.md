@@ -84,11 +84,11 @@ The following steps describe how to load entries:
 
 * <div align="justify">File 2: PPI table, in this case, the targets are found in the UniprotID Prot_A column, and their interacting target is found in the UniprotID Prot_B column, a third column named total STRING database score, quantifies the strength of that interaction. Finally, the gene names associated with the UniProt IDs are found in the Prot_A and Prot_B columns.</div>
 
-  <img src=".\media\result2.png" style="zoom:40%;" />
+  <img src=".\media\result2.png" style="zoom:30%;" />
 
 * <div align="justify">File 3: Presents a small database of protein targets and drugs for the indication of interest, in this case for Alzheimer's disease. The output path was set to save a file named 01_output-Target-Groups.xlsx, by default the other output files will be saved in the same path.</div>
 
-  <img src=".\media\result3.png" style="zoom:60%;" />
+  <img src=".\media\result3.png" style="zoom:70%;" />
 
 ### 4. Citation
 
