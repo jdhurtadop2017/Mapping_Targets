@@ -6,7 +6,7 @@
 
 * Knime version 4.3.1 or higher, a programming software through functional workflow <b><a href="https://www.knime.com/" target="_blank">Knime website</a></b>
 
-* Our Knime workflow to capture relevant information about an indication of interest using different databases <a href="https://github.com/jdhurtadop2017/Mapping_Targets/raw/master/End_Hunting-Targets_CP.knwf">**End_Hunting-Targets_CP**</a>.
+* Our Knime workflow to capture relevant information about an indication of interest using different databases <a href="https://github.com/jdhurtadop2017/Mapping_Targets/raw/master/PPI-network.knwf">**PPI-network**</a>.
 
 * Input files to run the workflow <a href="https://github.com/jdhurtadop2017/Mapping_Targets/raw/master/Inputs/Inputs.rar">**Inputs**</a>
 
@@ -24,11 +24,11 @@ The following steps describe how to load entries:
 
 * Indicate the path where the file 1_Drugs_TTD.txt (red box) is located on your computer, once the workflow starts running the other input files will be loaded automatically as long as they are located in the same folder as file 1.
 
-  <img src=".\media\input.png" style="zoom:50%;" />
+  <img src=".\media\input.png" style="zoom:40%;" />
 
-* Right-clicking the node named Select Disease select the pathology of interest as well as the Interactive View: single selection widget option.
+* Left-clicking the node named Select Disease select the pathology of interest as well as the Interactive View: single selection widget option.
 
-  <img src=".\media\disease option.png" style="zoom:60%;" />
+  <img src=".\media\disease option.png" style="zoom:40%;" />
 
 ### 2. Data enrichment from various databases
 
@@ -76,7 +76,7 @@ The following steps describe how to load entries:
 
 <div align="justify">The output path was configured to save a .xlsx file named 01_output-Target-Groups.xlsx, by default the other output files will be saved in the same path.</div>When this workflow ends running, the following files are obtained as a result:
 
-<img src=".\media\result1.png" style="zoom:60%;" />
+<img src=".\media\result1.png" style="zoom:10%;" />
 
 * File 1: Detailed list of targets associated with the indication of interest along with their respective Uniprot ID, Target Group classification (T1, T2, T3, or T4), Target Score, and Normalized Score.
 
@@ -84,11 +84,11 @@ The following steps describe how to load entries:
 
 * <div align="justify">File 2: PPI table, in this case, the targets are found in the UniprotID Prot_A column, and their interacting target is found in the UniprotID Prot_B column, a third column named total STRING database score, quantifies the strength of that interaction. Finally, the gene names associated with the UniProt IDs are found in the Prot_A and Prot_B columns.</div>
 
-  <img src=".\media\result2.png" style="zoom:60%;" />
+  <img src=".\media\result2.png" style="zoom:35%;" />
 
 * <div align="justify">File 3: Presents a small database of protein targets and drugs for the indication of interest, in this case for Alzheimer's disease. The output path was set to save a file named 01_output-Target-Groups.xlsx, by default the other output files will be saved in the same path.</div>
 
-  <img src=".\media\result3.png" style="zoom:60%;" />
+  <img src=".\media\result3.png" style="zoom:50%;" />
 
 ### 4. Citation
 
