@@ -89,7 +89,7 @@ The following steps describe how to load entries:
 
 * <div align="justify">File 3: Presents a small database of protein targets and drugs for the indication of interest, in this case for Alzheimer's disease. The output path was set to save a file named 01_output-Target-Groups.xlsx, by default the other output files will be saved in the same path.</div>
 
-  <img src=".\media\result3.png" style="zoom:70%;" />
+  <img src=".\media\result3.png" style="zoom:190%;" />
 
 ### 4. Citation
 
