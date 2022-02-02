@@ -1,13 +1,13 @@
 ## *Welcome to the Ramirez Lab Wiki – Protein-Protein Interactions Networks (PPI) for key targets in a given disease*
 
-<div align="justify">Here we present a workflow in KNIME (open source software) that can be used to capture relevant information related to an indication of interest such as (1) a complete list of targets.  (2) drug names, and their respective phase of the study. (3) key protein-protein interactions. 
-This workflow is fed by different databases that are dedicated to systematically capturing the growing number of approved drugs in clinical trials or under investigation, along with their target and indication.  These include, for example, <a href="https://www.ebi.ac.uk/chembl" target="_blank"><b>ChEMBL</b></a></b>, <b><a href="http://db.idrblab.net/ttd/" target="_blank">Therapeutic Target Database TTD</a></b>, <b><a href="https://go.drugbank.com/" target="_blank"<b>DRUGBANK</b></a>, <b><a href="https://string-db.org/" target="_blank"<b>STRING</b></a> and <b><a href="https://www.opentargets.org/" target="_blank"<b>OPEN TARGETS</b></a>, which have stood out as efficient, cost-effective, and complementary tools for target and drug discovery and prioritization, depending on the indication of interest. The integration of the different databases mentioned, through this Workflow, contributes to the selection and prioritization of target mapping and the identification of a new set of proteins as drug target candidates, thus increasing the probability of significantly affecting the right targets that have a relevant biological role, not only in disease treatment but perhaps also in disease prevention. This workflow was trained and validated using Alzheimer's disease as an example.
+<div align="justify">Here we present a workflow constructed in KNIME (an open source software) which can be used to capture relevant information related to an indication of interest involving (1) a complete list of targets,  (2) drug names, and their respective study phase, and (3) key protein-protein interactions. 
+This workflow is fed with different databases for the systemic capture of the growing number of approved drugs in clinical trials, as well as drugs currently in research, along with their target and indication.  These include, for example, <a href="https://www.ebi.ac.uk/chembl" target="_blank"><b>ChEMBL</b></a></b>, <b><a href="http://db.idrblab.net/ttd/" target="_blank">Therapeutic Target Database TTD</a></b>, <b><a href="https://go.drugbank.com/" target="_blank"<b>DRUGBANK</b></a>, <b><a href="https://string-db.org/" target="_blank"<b>STRING</b></a> and <b><a href="https://www.opentargets.org/" target="_blank"<b>OPEN TARGETS</b></a>, which have stood out as efficient, cost-effective, and complementary tools for target and drug discovery and prioritization. The integration of these different databases through this Workflow contributes to the selection and prioritization of targets mapped and the identification of a new set of proteins as drug target candidates, thus increasing the probability of significantly affecting the right targets which have a relevant biological role, not only for disease treatment but perhaps also in disease prevention. This workflow was trained and validated using Alzheimer's disease as an example.
 
 ### Requirements
 
-* Knime version 4.3.1 or higher, a programming software through functional workflow <b><a href="https://www.knime.com/" target="_blank">Knime website</a></b>
+* Knime version 4.3.1 or higher, a programming software <b><a href="https://www.knime.com/" target="_blank">Knime website</a></b>
 
-* Our Knime workflow to capture relevant information about an indication of interest using different databases <a href="https://github.com/jdhurtadop2017/Mapping_Targets/raw/master/PPI-network.knwf">**PPI-network**</a>.
+* Our Knime workflow which captures key data about an indication of interest using different databases <a href="https://github.com/jdhurtadop2017/Mapping_Targets/raw/master/PPI-network.knwf">**PPI-network**</a>.
 
 * Input files to run the workflow <a href="https://github.com/jdhurtadop2017/Mapping_Targets/raw/master/Inputs/Inputs.rar">**Inputs**</a>
 
@@ -37,9 +37,9 @@ The following steps describe how to load entries:
 
   T1: Approved drug or Phase 4
 
-  T2: Clinical trials, phase 1, 2, or 3 or proprietary 
+  T2: Clinical trials, phase 1, 2, or 3 
 
-  T3: Investigational phase, completed, preclinical or phase 0
+  T3: Research phase: completed, preclinical or phase 0
 
   <div align="justify">Looking to complement the information of the pathology of interest, a query in the Open Targets database is made through the **EFO** (Experimental Factor Ontology), which serves as a disease identifier. Finally, a small, filtered, database of the pathology of interest is obtained, enriched with information from four databases, through the respective IDs of proteins targets and associated drugs. This small database generates the Output Table 3. </div> 	
 
